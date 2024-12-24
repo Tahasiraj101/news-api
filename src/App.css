@@ -1,75 +1,83 @@
+
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
-  color: white;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div {
-  text-align: center;
-  max-width: 400px;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Title Styling */
-h1 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #f7f7f7;
-}
-
-/* Input Field */
-input {
-  padding: 10px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  margin-right: 10px;
-  width: 70%;
-}
-
-/* Button Styling */
-button {
-  margin: 10px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-/* Error Message */
-p {
-  color: #ff4d4d;
-  font-size: 1rem;
-  margin-top: 10px;
-}
-
-/* Weather Details */
-div > div {
-  margin-top: 20px;
-  text-align: left;
-  padding: 15px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-  color: #fff;
-  line-height: 1.6;
-}
-
-h2 {
-  margin-bottom: 10px;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* Heading */
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Filters */
+  .filters {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  
+  /* News Container */
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* News Card */
+  .news-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .no-image {
+    color: #999;
+    font-style: italic;
+  }
+  
+  .news-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .news-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .news-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .news-link:hover {
+    text-decoration: underline;
+  }
+  
